@@ -1,71 +1,73 @@
 public class Main {
+    public static void main(String[] args) {
+        //1
+        int a = 500;
+        System.out.println(a);
+        byte b = 5;
+        System.out.println(b);
+        short c = -10;
+        System.out.println(c);
+        long d = 5000;
+        System.out.println(d);
+        float e = -2.2f;
+        System.out.println(e);
+        double f = 2.2;
+        System.out.println(f);
 
-int a =500;
-System.out.println("500")
-byte b=5;
-System.out.println("5")
-short c=-10;
-System.out.println("-10")
-long d=5000;
-System.out.println("5000")
-float e=-2.2;
-System.out.println("-2.2")
-double f=2.2;
-System.out.printLn("2.2")
+        //2
+        float a2 = 27.12f;
+        long b2 = 987678965549l;
+        short c2 = 569;
+        short d2 = -159;
+        short t = 27897;
+        byte r = 67;
 
+        //3
+        byte studentAP = 23;
+        byte studentAC = 27;
+        byte studentEA = 30;
+        int totalP = 480;
+        int student = totalP / (studentAP + studentAC + studentEA);
+        System.out.println("На каждого ученика рассчитано" + student + "листов бумаги");
 
-float =27.12;
-long = 987 678 965 549;
-short =569;
-short= -159;
-short=27897;
-byte=67;
+        //4
+        float machinePerformance = 16 / 2;
+        System.out.println("За 20 минут машина произвела" + machinePerformance * 20 + "штук бутылок");
+        System.out.println("За сутки машина произвела" + machinePerformance * 60 + "штук бутылок");
+        System.out.println("За 20 минут машина произвела" + machinePerformance * 24 * 60 * 3 + "штук бутылок");
+        System.out.println("За 20 минут машина произвела" + machinePerformance * 24 * 60 * 30 + "штук бутылок");
 
+        //5
+        byte a3 = 120;
+        byte b3 = 2;
+        byte c3 = 4;
+        int classes = a3 / (b3 + c3);
+        System.out.println("В школе, где" + classes + "классов нужно" + classes * b3 + "банок белой краски и" + classes * c3
+                + "банок коричневой краски");
 
-byte studentAP=23;
-byte studentAC=27;
-byte studentEA=30;
-short student=("studentAP+studentAC+studentEA"=+)/480;
-System.out.println ("На каждого ученика рассчитано"=+byte student" листов бумаги")
+//6
+        double banana = 5 * 0.08;
+        double milk = 100 * 0.105 * 2;
+        double iceCreamSundae = 2 * 0.100;
+        double rawEggs = 4 * 0.070;
+        System.out.println((banana + milk + iceCreamSundae + rawEggs) * 1000);
+//7
 
-float machinePerformance=16/2;
-System.out.println ("За 20 минут машина произвела"+=machinePerformance=16/2*20 штук бутылок)
-            System.out.println ("За сутки машина произвела"+=machinePerformance=16/2*24*60 штук бутылок)
-            System.out.println ("За 20 минут машина произвела"+=machinePerformance=16/2*24*60*3штук бутылок)
-            System.out.println ("За 20 минут машина произвела"+=machinePerformance=16/2*24*60*30штук бутылок)
+        double a7 = 7.0;
+        double b7 = 0.250;
+        double c7 = 0.500;
+        System.out.println(a7 / b7 );
+        System.out.println(a7 / c7);
 
-    byte a=120;
-byte b=2;
-byte c=4;
-System.out.println ("В школе, где'=+(a/(b+c)классов нужно="+(a/(b+c)*b банок белой краски и='+(a/(b+c)*c' банок коричневой краски")
-
-
-    double banana=5*0.08;
-double milk=100*0.105*2;
-double iceCreamSundae =2*0.100;
-double rawEggs = 4*0.070;
-    System.out.println ("banana+milk+iceCreamSundae+rawEggs="+ result)*1000
-
-double a=7.0;
-    double b=0.250;
-    double c=0.500;
-    System.out.println ('a/b+a/c')
-
-    double M=67760*10/100;
-    double D=83690*10/100;
-    double K= 76230*10/100;
-    System.out.println ('M+D+K')*12
-    System.out.println ('67760+83690+76230')*12
-    System.out.println ('('M+D+K')*12'-('67760+83690+76230')*12'')
-
-
-
-
-
-
-
+//8
+        double M = 67760;
+        double D = 83690;
+        double K = 76230;
+        double sum=M+D+K;
+        System.out.println("до увеличения: " + sum * 12);
+        System.out.println("после увеличения: " + sum * 1.1 * 12);
+        System.out.println("разница: " + sum * 0.1 * 12);
+    }
 }
 
 
-
-=
